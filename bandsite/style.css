@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: hsl(180, 23%, 64%);
+    font-family: 'Fjalla One', sans-serif;
+    color: red;
+}
+
+#section1 {
+
+}
+
+#section2 {
+    
+}
+
+header {
+    background-color: WhiteSmoke;
+    background-image: url("https://source.unsplash.com/random/400x300/?white");
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    padding: 32px;
+    letter-spacing: 2ch;
+}
+
+header nav {
+    background-color: PaleVioletRed;
+}
+
+nav ul {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline-block;
+    /* list items komen naast elkaar te staan */
+}
+
+nav a {
+    display: block;
+    /* anchor elementen kunnen zo grootte krijgen */
+    background-color: hwb(0 25% 40%);
+    color: Linen;
+    padding: 24px;
+}
+
+nav a:hover {
+    background-color: NavajoWhite;
+    color: MidnightBlue;
+}
+
+section {
+    padding: 40px;
+}
+
+#merch {
+    background-color: brown;
+    color: blue;
+}
+
+#home p {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+img {
+    width: 50%;
+}
