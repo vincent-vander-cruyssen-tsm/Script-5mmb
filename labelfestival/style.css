@@ -1,0 +1,87 @@
+@import url("https://use.typekit.net/mex7lic.css");
+
+:root {
+    --bgc-01: #99f499;
+    --bgc-02: hsl(188, 60%, 55%);
+    --txt-01: hsl(220, 54%, 40%);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bgc-01);
+    color: var(--txt-01);
+    font-family: "antipol-variable", sans-serif;
+    line-height: 1;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* x-as */
+    justify-items: center; 
+    /* y-as */
+    align-items: center;
+    padding: 2rem 0;
+    background-color: var(--bgc-02);
+}
+
+.logo img {
+    width: 3rem;
+}
+
+h1 {
+    display: inline;
+}
+
+header nav {
+    justify-self: end;
+    align-self: end;
+}
+
+nav li {
+    display: inline;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+#act .grid-container {
+    grid-template-columns: 1fr 2fr 0.5fr;
+}
+
+#act {
+    background-color: #fff;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 1.6;
+}
+
+iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+footer {
+    background-color: var(--bgc-02);
+}
